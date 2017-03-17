@@ -9,6 +9,15 @@
 		"description": "{{appDescription}}",
 		"applicationVersion": {
 			"version": "1.0.0"
+		},
+		"dataSources": {
+			"MyCloud": {
+				"uri": "/destinations/MyCloud/sap/opu/odata/SAP/Z_CPD_MYPROJ_ODATA_SRV/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0"
+				}
+			}
 		}
 	},
 	"sap.ui": {
@@ -20,7 +29,7 @@
 			"phone": true
 		},
 		"supportedThemes": [
-			"sap_bluecrystal"
+			"sap_belize"
 		]
 	},
 	"sap.ui5": {
@@ -57,14 +66,23 @@
 				}
 			},
 			"address": {
-					"type": "sap.ui.model.json.JSONModel",
-					"uri": "model/Address.json"
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "model/Address.json"
+			},
+			"": {
+				"dataSource": "MyCloud",
+				"settings": {
+					"synchronizationMode": "None"
 				}
-
+			}
 		},
 		"contentDensities": {
 			"compact": true,
 			"cozy": true
 		}
+	},
+	"sap.platform.hcp": {
+		"uri": "webapp",
+		"_version": "1.1.0"
 	}
 }

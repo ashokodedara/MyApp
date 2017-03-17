@@ -1,0 +1,60 @@
+#__page0-cont {
+    background-color:#D6DBDF ;
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-weight: bold;
+   
+}
+
+#__component0---app--myTable-tblHeader *
+{
+   background-color:#ebebeb;
+   font-weight:Bold;
+   color:#DC7633;
+   font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+#__component0---app--myTable-tblBody 
+{
+
+ background-color:#ebebeb;
+}
+#__component0---app--myTable-listUl 
+{
+	
+ border:solid 1px grey;	
+ width:80%;
+ margin:auto;
+ box-shadow: 5px 5px 5px grey; 
+}
+#__toolbar0
+{
+width: 80%;
+margin: auto;
+}
+button#__button0 {
+    margin-left: -2%;
+}
+div#__field0 {
+    margin-right: -1%;
+}
+#__page0-title-inner
+{
+ color:#DC7633;  
+}
+#__page0-intHeader-BarPH 
+{
+background-color:#F3F5F5 ;
+}
+#__page0-title-inner
+{
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+tbody .sapMListTblCell span
+{
+ text-align:center;	
+ margin-top:18%;
+}

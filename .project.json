@@ -1,0 +1,14 @@
+{
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "",
+    "defaultLanguage": "",
+    "defaultI18NPropertyFile": "",
+    "resourceModelName": ""
+  },
+  "hcpdeploy": {
+    "account": "p1942471894trial",
+    "name": "hatchprojectviewer",
+    "lastVersionWeTriedToDeploy": "1.0.1"
+  }
+}
